@@ -4,7 +4,7 @@
 
 ````
 As a user
-So that I can decide what my predications will be
+So that I can decide what my predictions will be
 I would like to see the EPL football matches that are taking place next
 ````
 
@@ -40,7 +40,7 @@ I would like to be able to edit my previously predicted scores
 
 ````
 As a user
-So that I can see how my predictions were out against the actual results
+So that I can see how my predictions compared against the actual results
 I would like to be able to see the actual result of each game against my predicted score
 ````
 
@@ -88,7 +88,7 @@ I would like to be able to delete myself from the private group of choice
 
 ````
 As a user
-So that I don not forget to complete my weekly predications
+So that I don not forget to complete my weekly predictions
 I would like an email/notification sent 72hrs before the games to remind me to complete my predictions
 ````
 
