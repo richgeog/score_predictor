@@ -1,3 +1,1 @@
-angular
-  .module('scorePredictor')
-  .controller('MainCtrl');
+var scorePredictor = angular.module('ScorePredictor', ['ngResource'])

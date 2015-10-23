@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ScorePredictor">
 
 <head>
   <title>Score Predictor</title>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-resource.js"></script>
   <script src="app.js"></script>
+  <script src="ScorePredictorController.js"></script>
 </head>
 
-<body ng-app="scorePredictor" ng-controller="MainCtrl">
+<body ng-controller="ScorePredictorController as mainCtrl">
+  <ul class="list-group">
+  <li ng-repeat="match in mainCtrl.fixtures.matches">
+    {{match.match_localteam_name}} vs. {{match.match_visitorteam_name}}
+    <input type="text">
+  </li>
+</ul>
 </body>
 
 </html>
